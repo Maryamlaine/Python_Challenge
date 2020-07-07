@@ -6,7 +6,7 @@ from statistics import mean
 
 
 # Set up a path to collect the data
-budget_csv = os.path.join ('.','budget_data.csv')
+budget_csv = os.path.join ('Resources','budget_data.csv')
 
 # Open the csv 
 with open (budget_csv, newline="") as csvfile:

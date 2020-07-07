@@ -10,7 +10,7 @@ input = [ ]
 votes = {}
 
 # Path to collect data
-election_csv = os.path.join ('.','election_data.csv')
+election_csv = os.path.join ('Resources','election_data.csv')
 
 # Open the csv 
 with open (election_csv, newline="") as csvfile:
